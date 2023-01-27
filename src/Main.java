@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -14,5 +12,6 @@ public class Main {
         System.out.println(myDouble.getValue());
         System.out.println(myChar.getValue());
         System.out.println(myString.getValue());
+        System.out.println(myBounded.getValue());
     }
 }
