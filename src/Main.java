@@ -3,9 +3,14 @@ import java.sql.SQLOutput;
 public class Main {
     public static void main(String[] args) {
 
-        myIntegerClass myInt = new myIntegerClass(1);
-        myDoubleClass myDouble = new myDoubleClass(3.14);
-        myCharacterClass myChar = new myCharacterClass('@');
-        myStringClass myString = new myStringClass("Hello");
+        MyGenericClass<Integer> myInt = new MyGenericClass<>(1);
+        MyGenericClass<Double> myDouble = new MyGenericClass<>(3.14);
+        MyGenericClass<Character> myChar = new MyGenericClass<>('@');
+        MyGenericClass<String> myString = new MyGenericClass<>("Hello");
+
+        System.out.println(myInt.getValue());
+        System.out.println(myDouble.getValue());
+        System.out.println(myChar.getValue());
+        System.out.println(myString.getValue());
     }
 }
