@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8462726f-5ae9-46cf-abec-8834239b2568" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/myCharacterClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myDoubleClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myIntegerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myStringClass.java" afterDir="false" />
+    <list default="true" id="8462726f-5ae9-46cf-abec-8834239b2568" name="Changes" comment="Changed 4 different classes to 1 generic, created 4 instances of this class">
+      <change afterPath="$PROJECT_DIR$/src/MyBoundedClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -48,8 +45,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674812124787</updated>
-      <workItem from="1674812126040" duration="1005000" />
+      <workItem from="1674812126040" duration="1704000" />
     </task>
+    <task id="LOCAL-00001" summary="Created 4 classes">
+      <created>1674813157878</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674813157878</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Changed 4 different classes to 1 generic, created 4 instances of this class">
+      <created>1674813448911</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674813448911</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -65,5 +77,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created 4 classes" />
+    <MESSAGE value="Changed 4 different classes to 1 generic, created 4 instances of this class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed 4 different classes to 1 generic, created 4 instances of this class" />
   </component>
 </project>
